@@ -1,5 +1,6 @@
-# lgsl-expertcs
-versiunea 2020 
+# lgsl-expertcs BETAA !!! NU ESTE GATA 
+
+v1 2020
 
 
 Mysqli 
