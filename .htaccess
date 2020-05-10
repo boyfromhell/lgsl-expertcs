@@ -1,0 +1,15 @@
+
+ Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+
+	RewriteRule s_(.*)-(.*).png$ lgsl_files/lgsl_image.php?s=$1&type=$2 [NC]
+	RewriteRule server_(.*) ?s=$1 [NC]
+
+	RewriteRule s_(.*).png$ lgsl_files/lgsl_image.php?s=$1 [NC]
+	RewriteRule adauga_server.html  index.php?s=add [NC]
+
+
+
+ 
